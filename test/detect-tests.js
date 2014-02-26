@@ -4,7 +4,7 @@ chai.Assertion.includeStack = true;
 require('chai').should();
 var expect = require('chai').expect;
 
-require('../lib/index'); // Load this module just to make sure it works
+require('../'); // Load this module just to make sure it works
 
 describe('raptor-env/detect' , function() {
 
